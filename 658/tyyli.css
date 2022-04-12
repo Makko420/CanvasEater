@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body#pong, body#bricks{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-family: Arial, helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#canvas {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.pisteet {
+    font-size: 30px;
+}
+
+
+.peli {
+    display:grid;
+    text-align: center;
+    border: 3px solid;
+}
+.peli2 {
+    display:grid;
+    text-align: center;
+    border: 3px solid;
+}
+.peli3 {
+    display:grid;
+    text-align: center;
+    border: 3px solid;
+}
+        
+      
+h1 {
+    font-size:40px;
+    text-align: center;
+        
+}
+a {
+    padding:70px;
+    text-align: center;
+}
+a.tayta {
+    display: block;
+    width: 100%;
+    text-decoration: none; 
+}
+.peli:hover {
+    background-color: rgb(168, 228, 223);
+}
+.peli2:hover {
+      background-color: rgb(168, 228, 223);
+}
+.peli3:hover {
+    background-color: rgb(168, 228, 223);
+}
+body#menu {
+    background-color: white;
+}
+  
+.better {
+    background-color: black;
+}
+#powerupit {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+        
